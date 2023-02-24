@@ -31,3 +31,8 @@ header>h1{
     backdrop-filter: blur(10px) saturate(360%) contrast(180%);
 
 }
+ion-icon{
+color: rgb(68, 0, 255);
+
+
+}
