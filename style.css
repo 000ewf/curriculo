@@ -1,0 +1,33 @@
+body,html{
+    padding: 0;
+    margin: 1;
+   
+}
+header{
+    margin-top: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+header> img{
+    
+    width: 6em;
+    height: 6em;
+    border-radius: 100%;
+    border: 1px solid #fff;
+}
+header>h1{
+    display: inline-block;
+    font-size:1.5em;
+    font-weight: bold;
+    border-radius: 1em;
+    background-color: #000a;
+    color: #fff;
+    padding: 0.2em 0.6em;
+    border: 1px solid #fffa;
+    -webkit-backdrop-filter:blur(10px) saturate(360%) contrast(180%) ;
+    backdrop-filter: blur(10px) saturate(360%) contrast(180%);
+
+}
